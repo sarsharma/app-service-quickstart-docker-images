@@ -74,7 +74,7 @@ setup_wordpress(){
             mkdir -p /home/bak
             mv $WORDPRESS_HOME /home/bak/wordpress_bak$(date +%s)            
         done
-        GIT_REPO=${GIT_REPO:-https://github.com/azureappserviceoss/wordpress-azure}
+        GIT_REPO=${GIT_REPO:-https://github.com/sarsharma/wordpress-azure}
 	    GIT_BRANCH=${GIT_BRANCH:-linux-appservice}
 	    echo "INFO: ++++++++++++++++++++++++++++++++++++++++++++++++++:"
 	    echo "REPO: "$GIT_REPO
